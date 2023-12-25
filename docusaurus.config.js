@@ -4,8 +4,8 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "My Site",
-  tagline: "Dinosaurs are cool",
+  title: "Etcetera Finances Docs",
+  tagline: "Manage your finances with ease",
   favicon: "img/favicon.ico",
   url: "https://your-docusaurus-test-site.com",
   baseUrl: "/",
@@ -34,10 +34,9 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
       image: "img/docusaurus-social-card.jpg",
       navbar: {
-        title: "Etcetera Finances Docs",
+        title: "Etcetera Finances",
         logo: {
           alt: "Etcetera Finances logo",
           src: "img/logo.svg",
@@ -66,35 +65,30 @@ const config = {
                 label: "Introduction",
                 to: "/docs",
               },
-            ],
-          },
-          {
-            title: "Community",
-            items: [
               {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
+                label: "About the frontend",
+                to: "/docs/frontend/overview",
               },
               {
-                label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus",
-              },
-              {
-                label: "Twitter",
-                href: "https://twitter.com/docusaurus",
+                label: "About the backend",
+                to: "/docs/backend/overview",
               },
             ],
           },
           {
-            title: "More",
+            title: "Repositories",
             items: [
               {
-                label: "Blog",
-                to: "/blog",
+                label: "Etcetera Frontend",
+                href: "https://github.com/etchichury/etcetera-frontend",
               },
               {
-                label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
+                label: "Etcetera Backend",
+                href: "https://github.com/etchichury/etcetera-backend",
+              },
+              {
+                label: "Etcetera Docs",
+                href: "https://github.com/etchichury/etcetera-docs",
               },
             ],
           },
