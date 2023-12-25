@@ -3,7 +3,7 @@ title: Introduction
 sidebar_position: 1
 ---
 
-# Manage and keep track of your budget.
+# Manage and keep track of your budget
 
 ## Description
 
