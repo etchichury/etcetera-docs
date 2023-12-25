@@ -11,7 +11,7 @@ has_toc: false
 
 For now, the application's architecture is extremelly simple (and I'll try to
 maintain this way). There is a frontend client and a backend service. The
-client makes requests to the server, using HTTP, and the server responds
+client makes requests to the server using HTTP, and the server responds
 with a proper response.
 
 ## Tools
